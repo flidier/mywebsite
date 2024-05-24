@@ -1,17 +1,25 @@
+header{
+    background-image: url(assets/stack7.png);
+    background-size: contain;
+    height: 100px;
+}
+
 
 section:hover{
-    background-color: cornsilk;
+    background-color: chartreuse;
     transform: scale(1.001);
 }
 section{
     text-align: center;
     text-decoration: underline overline dashed;
-    
+    width: 80%;
+    margin: auto;
+    padding: 10px;
 }
 h1{
     background-color: aqua;
     border-radius: 10px;
-    color:chartreuse;
+    color:cornsilk;
 }
 p{
     background-color: tomato;
@@ -19,10 +27,44 @@ p{
 }
 li:hover{
     background-color: aliceblue;
+    translate: 10px;
+
 }
 li{
-    color:blueviolet
+    color:blueviolet;
+    
 }
 body{
+    background-image: url("assets/bad-1.png");
+    
+}
+body:hover{
     background-color: turquoise;
+}
+
+ul{
+    width: 80%;
+}
+
+.hobbies{
+    display:inline-block;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+}   
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background-image: url("assets/Screenshot120258.png");
+    background-size:contain;
+    height: 200px;
+}
+img{
+    width: 20%;
 }
